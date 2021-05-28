@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
+import Fruit from "./Fruit.js"
 
 // Hoe maak je van iets een component
 // 1. Begin de HTML gewoon uit te schrijven (maak eerst wat je wilt)
-// 2. Als tevreden bent met je pagina kun een component "refactoren", opschonen
-//   - [] Kopier een component met alle data erin
-//   - [] Zet het in een ander JavaScript bestand
-//   - [] Maak een component functie
-//   - [] Die component functie returned JSX
-//   - [] Optioneel: voeg een div toe als je component uit meerder tags bestaat
-//   - [] Exporteer je component functie (export default)
-//   - [] Importeer je component functie in App (of waar je hem wil gebruiken)
+// 2. Als tevreden bent met je pagina kun een component "refactoren", control+alt+l
+//   - [x] Kopieer een component met alle data erin
+//   - [x] Zet het in een ander JavaScript bestand
+//   - [x] Maak een component functie
+//   - [x] Die component functie returned JSX
+//   - [x] Optioneel: voeg een div toe als je component uit meerder tags bestaat
+//   - [x] Exporteer je component functie (export default)
+//   - [x] Importeer je component functie in App (of waar je hem wil gebruiken)
 //   - [] Gebruik je component functie met JSX syntax
 // 3. Is component af, maar "gehardcode", alles heeft altijd dezelfde waard
 //    gebruik props om het component dynamisch te maken
@@ -57,3 +58,5 @@ function App() {
 }
 
 export default App;
+
+
