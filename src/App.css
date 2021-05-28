@@ -1,4 +1,4 @@
-.fruitbar {
+.fruitBar {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,14 +13,13 @@
     border: 1px solid black;
     border-radius: 10px;
     justify-content: center;
-    align-content: center;
-
+    align-items: center;
     display: flex;
     flex-direction: row;
 
-    font-family: "Arial Black", Serif;
+    font-family: "Arial Black", Serif, serif;
 }
-
+p {margin: 0;}
 
 .resetButton {
     height: 40px;

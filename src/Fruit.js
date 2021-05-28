@@ -1,9 +1,10 @@
-function Fruit() {
+function Fruit(props) {
+    console.log("What are props", props)
     return (
         <div className="aardbeien">
-            <p>🍓 Aardbeien</p>
+            <p>{props.fruit}</p>
             <button>-</button>
-            <div className="counter">0</div>
+            <p className="counter">0 </p>
             <button>+</button>
         </div>
 

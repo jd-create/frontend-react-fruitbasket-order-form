@@ -12,46 +12,29 @@ import Fruit from "./Fruit.js"
 //   - [x] Optioneel: voeg een div toe als je component uit meerder tags bestaat
 //   - [x] Exporteer je component functie (export default)
 //   - [x] Importeer je component functie in App (of waar je hem wil gebruiken)
-//   - [] Gebruik je component functie met JSX syntax
+//   - [x] Gebruik je component functie met JSX syntax <Componentnaam />
 // 3. Is component af, maar "gehardcode", alles heeft altijd dezelfde waard
 //    gebruik props om het component dynamisch te maken
-//   - [] voeg attribuut to in de jsx (je mag kiezen hoe het attribuut heet)
-//   - [] geeft het attribuut een waarde
-//   - [] in de component functie gebruiken maken van de "prop" die is doorgegeven
-//      - [] props toevoegen als parameter van de component functie
-//      - [] De juiste prop eruit halen en gebruiken in je component (subject)
-//   - [] Interpoleren in JSX
+//   - [x] voeg attribuut to in de jsx (je mag kiezen hoe het attribuut heet)
+//   - [x] geeft het attribuut een waarde
+//   - [x] in de component functie gebruiken maken van de "prop" die is doorgegeven
+//      - [x] props toevoegen als parameter van de component functie
+//      - [x] De juiste prop eruit halen en gebruiken in je component (subject)
+//   - [x] Interpoleren in JSX
 
-function App() {
+function App()
+{
     return (
         <>
             <h1>Fruitmand bezorgservice</h1>
+
             <div className="fruitBar">
-                <div className="aardbeien">
-                    <p>🍓 Aardbeien</p>
-                    <button>-</button>
-                    <div className="counter">0</div>
-                    <button>+</button>
-                </div>
-                <div className="bananen">
-                    <p>🍌 Bananen</p>
-                    <button>-</button>
-                    <div className="counter">0</div>
-                    <button>+</button>
-                </div>
-                <div className="appels">
-                    <p>🍏 Appels</p>
-                    <button>-</button>
-                    <div className="counter">0</div>
-                    <button>+</button>
-                </div>
-                <div className="kiwis">
-                    <p>🥝 Kiwi's</p>
-                    <button>-</button>
-                    <div className="counter">0</div>
-                    <button>+</button>
-                </div>
+                <Fruit fruit="🍓 Aardbeien"/>
+                <Fruit fruit="🍌 Bananen"/>
+                <Fruit fruit="🍏 Appels"/>
+                <Fruit fruit="🥝 Kiwi's"/>
             </div>
+
             <button className="resetButton" type="submit">Reset</button>
         </>
     );
