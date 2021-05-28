@@ -25,6 +25,13 @@ function App() {
   return (
     <>
       <h1>Fruitmand bezorgservice</h1>
+        <div className="fruitBar">
+            <p>🍓 Aardbeien</p>
+            <button>-</button>
+            <div className="counter">0</div>
+            <button>+</button>
+
+        </div>
     </>
   );
 }
