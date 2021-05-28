@@ -22,18 +22,38 @@ import './App.css';
 //   - [] Interpoleren in JSX
 
 function App() {
-  return (
-    <>
-      <h1>Fruitmand bezorgservice</h1>
-        <div className="fruitBar">
-            <p>🍓 Aardbeien</p>
-            <button>-</button>
-            <div className="counter">0</div>
-            <button>+</button>
-
-        </div>
-    </>
-  );
+    return (
+        <>
+            <h1>Fruitmand bezorgservice</h1>
+            <div className="fruitBar">
+                <div className="aardbeien">
+                    <p>🍓 Aardbeien</p>
+                    <button>-</button>
+                    <div className="counter">0</div>
+                    <button>+</button>
+                </div>
+                <div className="bananen">
+                    <p>🍌 Bananen</p>
+                    <button>-</button>
+                    <div className="counter">0</div>
+                    <button>+</button>
+                </div>
+                <div className="appels">
+                    <p>🍏 Appels</p>
+                    <button>-</button>
+                    <div className="counter">0</div>
+                    <button>+</button>
+                </div>
+                <div className="kiwis">
+                    <p>🥝 Kiwi's</p>
+                    <button>-</button>
+                    <div className="counter">0</div>
+                    <button>+</button>
+                </div>
+            </div>
+            <button className="resetButton" type="submit">Reset</button>
+        </>
+    );
 }
 
 export default App;
