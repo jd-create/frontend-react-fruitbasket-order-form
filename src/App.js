@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Fruit from "./Fruit.js"
 
@@ -24,6 +24,7 @@ import Fruit from "./Fruit.js"
 
 function App()
 {
+
     return (
         <>
             <h1>Fruitmand bezorgservice</h1>
